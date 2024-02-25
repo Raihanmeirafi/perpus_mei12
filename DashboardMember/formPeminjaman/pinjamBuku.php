@@ -188,7 +188,6 @@ if(isset($_POST["pinjam"]) ) {
 <div class="input-group mb-3 mt-1">
 <select class="form-select" aria-label="Default select example" name="paket" id="paket" onchange="setReturnDate(this)">
   <option disabled selected>-- pilih paketan --</option>
-  <option value="">Non paket</option>
   <option value="1">Paket 1</option>
   <option value="2">Paket 2</option>
   <option value="3">Paket 3</option>

@@ -15,7 +15,7 @@
    
     
   <div class="container-fluid">
-    
+  
     <a href="sign/link_login.html" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </a>
@@ -32,13 +32,22 @@
 </nav>
 
 
+
 <div><p><h4> </h4></p></div>      
  <br/>
-<img src="assets/library Book Sale.png" alt="" srcset="">
- 
- <div>
+ <div class="container" >
+<img src="assets/library Book Sale.png" class="card-img-top rounded" height="300" width="400" alt="" srcset="">
+<div class="" >
 <a class=" btn btn-primary mt-1" href="sign/link_login.html">Get started</a>
 </div>
+      <form action="" method="post" class="mt-2">
+<div class="input-group d-flex justify-content-end mb-2">
+         <input class="border p-2 rounded rounded-end-0 bg-tertiary" type="text" name="keyword" id="keyword" placeholder="cari judul atau kategori...">
+         <button class="border border-start-3 bg-outline-primary rounded rounded-start-0" type="submit" name="search"><i class="fa-solid fa-magnifying-glass"></i></button>
+</form>
+        </div>
+</div>
+ 
     <section id="homeSection" class="p-5">
       <div class="d-flex flex-wrap justify-content-center">
         <div class="col mt-5">
@@ -84,16 +93,12 @@
   
 
   <!--Btn filter data kategori buku-->
-  
-       <div class="p-3 mb-2 border bg-warning"></div>
-       <form action="" method="post" class="mt-2">
-       <div class="input-group d-flex justify-content-end mb-5">
-         <input class="border p-2 rounded rounded-end-0 bg-tertiary" type="text" name="keyword" id="keyword" placeholder="cari judul atau kategori...">
-         <button class="border border-start-3 bg-outline-primary rounded rounded-start-0" type="submit" name="search"><i class="fa-solid fa-magnifying-glass"></i></button>
+ 
+       <div class="p-3 mb-2  bg-warning text-center mb-5">Selamat Membaca Buku</div>
+ 
+    
        
-        </div>
-       
-      </form>
+      
       
       <!--Card buku-->
       
