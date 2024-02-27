@@ -57,7 +57,7 @@ $result = pengembalian($nisn);
       <div class="p-3 mb-2 border bg-secondary">
         <tr>
           <th>
-      <div class="bg-warning alert alert-success" role="alert"><?php echo $day. " ". $dayOfMonth." ". " ". $month. " ". $year; ?></span></div>
+      <div class="bg-white alert alert-success" role="alert"><?php echo $day. " ". $dayOfMonth." ". " ". $month. " ". $year; ?></span></div>
       </th>  
     </tr>
       
@@ -95,7 +95,7 @@ $result = pengembalian($nisn);
       <div class="card-body pt-2">
         <h4 class="card-text text-center"></h4>
         <div class="row gap-2 p-2">
-          <a class="btn btn-secondary" href="formPeminjaman/TransaksiPeminjaman.php">PEMINJAMAN</a>
+          <a class="btn btn-primary" href="formPeminjaman/TransaksiPeminjaman.php">PEMINJAMAN</a>
           <a class="btn btn-primary mb-2" href="buku/daftarbuku.php">BUKU</a>
           <a class="btn btn-primary mb-2" href="formPeminjaman/Transaksipengembalian.php">HISTORY</a>
           <hr>

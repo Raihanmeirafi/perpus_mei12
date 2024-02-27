@@ -14,7 +14,7 @@
     <div class="p-3 mb-2 bg-dark" >
     <div class="container">
         <div class="card mt-4">
-    <div class="card-header text-center text-white bg-info" >
+    <div class="card-header text-center text-white bg-success" >
        Pendaftaran Petugas
     </div>
     <div class="card-body">

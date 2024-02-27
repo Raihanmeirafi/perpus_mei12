@@ -48,15 +48,15 @@ $dataPinjam = queryReadData("SELECT peminjaman.id_peminjaman, peminjaman.id_buku
   <table class="table table-striped table-hover">
         <thead class="text-center text-light">
           <tr>
-        <th class="bg-primary text-light">Id Peminjaman</th>
-        <th class="bg-primary text-light">Id Buku</th>
-        <th class="bg-primary text-light">Judul Buku</th>
-        <th class="bg-primary text-light">Nisn</th>
-        <th class="bg-primary text-light">Nama</th>
-        <th class="bg-primary text-light">Nama Admin</th>
-        <th class="bg-primary text-light">Tanggal Peminjaman</th>
-        <th class="bg-primary text-light">Tanggal Berakhir</th>
-        <th class="bg-primary text-light" width="15%">Aksi</th>
+        <th class="bg-success text-light">Id Peminjaman</th>
+        <th class="bg-success text-light">Id Buku</th>
+        <th class="bg-success text-light">Judul Buku</th>
+        <th class="bg-success text-light">Nisn</th>
+        <th class="bg-success text-light">Nama</th>
+        <th class="bg-success text-light">Nama Admin</th>
+        <th class="bg-success text-light">Tanggal Peminjaman</th>
+        <th class="bg-success text-light">Tanggal Berakhir</th>
+        <th class="bg-success text-light" width="15%">Aksi</th>
       </tr>
       </thead>
       

@@ -19,6 +19,7 @@ if(isset($_POST["search"]) ) {
      <script src="https://kit.fontawesome.com/de8de52639.js" crossorigin="anonymous"></script>
      <title>daftar buku</title>
   </head>
+  <body style="background:url (../assets/bg.jpg) center / cover fixed;">
   <style>
     .layout-card-custom {
       display: flex;
@@ -27,7 +28,7 @@ if(isset($_POST["search"]) ) {
       gap: 1.5rem;
     }
   </style>
-  <body>
+ <body style="background:url (../assets/bg.jpg) center / cover fixed;">
   <div class="p-3 mb-2 border bg-secondary">
   <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
@@ -64,7 +65,7 @@ if(isset($_POST["search"]) ) {
       </form>
        
        <!--Card buku-->
-       <div class="p-3 mb-2 border bg-warning">
+       <div class="p-3 mb-2 border bg-choco">
        <div class="layout-card-custom">
        <?php foreach ($buku as $item) : ?>
        <div class="card" style="width: 15rem;">

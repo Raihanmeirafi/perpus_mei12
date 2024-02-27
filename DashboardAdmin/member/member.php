@@ -50,15 +50,15 @@ if(isset($_POST["search"]) ) {
         <table class="table table-striped table-hover">
         <thead class="text-center">
           <tr>
-            <th class="bg-warning text-light">Nisn</th>
-            <th class="bg-warning text-light">Kode</th>
-            <th class="bg-warning text-light">Nama</th>
-            <th class="bg-warning text-light">Jenis Kelamin</th>
-            <th class="bg-warning text-light">Kelas</th>
-            <th class="bg-warning text-light">Jurusan</th>
-            <th class="bg-warning text-light">No Telepon</th>
-            <th class="bg-warning text-light">Pendaftaran</th>
-            <th class="bg-warning text-light">Delete</th>
+            <th class="bg-success text-light">Nisn</th>
+            <th class="bg-success text-light">Kode</th>
+            <th class="bg-success text-light">Nama</th>
+            <th class="bg-success text-light">Jenis Kelamin</th>
+            <th class="bg-success text-light">Kelas</th>
+            <th class="bg-success text-light">Jurusan</th>
+            <th class="bg-success text-light">No Telepon</th>
+            <th class="bg-success text-light">Pendaftaran</th>
+            <th class="bg-success text-light">Delete</th>
           </tr>
         </thead>
       <?php foreach($member as $item) : ?>

@@ -76,7 +76,7 @@ $buku = queryReadData("SELECT * FROM buku WHERE kategori = 'sains'");
       </form>
       
       <!--Card buku-->
-      <div class="p-3 mb-2 border bg-warning">
+      <div class="p-3 mb-2 border bg-">
     <div class="layout-card-custom">
       
        <?php foreach ($buku as $item) : ?>

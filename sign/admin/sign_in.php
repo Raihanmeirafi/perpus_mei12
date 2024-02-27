@@ -58,7 +58,7 @@ if (isset($_POST["signIn"])) {
       <hr>
       
     <form action="" method="post" class="row g-80 p-4 needs-validation" novalidate>
-    <div class="p-3 mb-2 border bg-warning"></div>
+    <div class="p-3 mb-2 border bg-"></div>
     <label for="validationCustom01" class="form-label"> Silahkan Masukan Nama Lengkap Anda</label>
   <div class="input-group mt-0">
     <span class="input-group-text" id="basic-addon1"><i class=""></i></span>

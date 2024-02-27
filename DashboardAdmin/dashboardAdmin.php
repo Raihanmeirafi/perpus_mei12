@@ -48,7 +48,7 @@ if(!isset($_SESSION["signIn"]) ) {
       <div class="p-3 mb-2 border bg-secondary">
         <tr>
           <th>
-      <div class="bg-warning alert alert-success" role="alert">Selamat datang admin - <span class="fw-bold text-capitalize"><?php echo $_SESSION['admin']['nama_admin']; ?></span> di Dashboard Perpustakaan</div>
+      <div class="bg-whit alert alert-success" role="alert">Selamat datang admin - <span class="fw-bold text-capitalize"><?php echo $_SESSION['admin']['nama_admin']; ?></span> di Dashboard Perpustakaan</div>
       </th>  
     </tr>
       
@@ -86,7 +86,7 @@ if(!isset($_SESSION["signIn"]) ) {
       <div class="card-body pt-2">
         <h4 class="card-text text-center"></h4>
         <div class="row gap-2 p-2">
-          <a class="btn btn-secondary" href="member/member.php">MEMBER</a>
+          <a class="btn btn-primary" href="member/member.php">MEMBER</a>
           <a class="btn btn-primary mb-2" href="buku/daftarbuku.php"> TAMBAH BUKU</a>
 
           <a class="btn btn-primary mb-2" href="daftar_petugas.php">TAMBAH PETUGAS</a>

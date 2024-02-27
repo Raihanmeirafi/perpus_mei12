@@ -6,9 +6,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/de8de52639.js" crossorigin="anonymous"></script>
     <title>Perpustakaan Ujung Planet</title>
-    <link rel="icon" href="assets/library Book Sale.png" type="image/png">
+    <link rel="icon" href="assets/baru.jpeg" type="image/png">
   </head>
-  <body style="background:url(assets/bg.jpg) center / cover fixed;">
+  <body style="background:url(assets/cafe.jpg) center / cover fixed;">
  
     <!--Navbar-->
     
@@ -36,7 +36,7 @@
 <div><p><h4> </h4></p></div>      
  <br/>
  <div class="container" >
-<img src="assets/library Book Sale.png" class="card-img-top rounded" height="300" width="400" alt="" srcset="">
+<img src="assets/new4.png" class="card-img-top rounded" height="300" width="400" alt="" srcset="">
 <div class="" >
 <a class=" btn btn-primary mt-1" href="sign/link_login.html">Get started</a>
 </div>
@@ -94,7 +94,7 @@
 
   <!--Btn filter data kategori buku-->
  
-       <div class="p-3 mb-2  bg-warning text-center mb-5">Selamat Membaca Buku</div>
+  <div class="bg-whit text-center alert alert-success" role="alert" >Selamat Membaca Buku</div>
  
     
        
@@ -113,7 +113,7 @@
           <ul class="list-group list-group-flush">
             <li class="list-group-item">Kategori : <?= $item["kategori"]; ?></li>
           </ul>
-          <div class="p-3 mb-2 border bg-warning"></div>
+          <div class="p-3 mb-2 border bg-whit alert alert-success" role="alert"></div>
         </div>
         
        <?php endforeach; ?>

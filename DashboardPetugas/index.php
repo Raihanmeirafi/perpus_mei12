@@ -20,7 +20,7 @@ $peminjaman = mysqli_fetch_all($query, MYSQLI_ASSOC);
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
      <script src="https://kit.fontawesome.com/de8de52639.js" crossorigin="anonymous"></script>
-     <title>Admin Dashboard</title>
+     <title>petugas</title>
   </head>
   <body>
   <div class="p-3 mb-2 border bg-secondary">
@@ -47,11 +47,11 @@ $peminjaman = mysqli_fetch_all($query, MYSQLI_ASSOC);
       ?>
       
 <img src="../assets/library Book Sale.png" alt="logo" width="50px">
-      <h1 class="mt-5 fw-bold">Dashboard - <span class="fs-4 text-warning"> <?php echo $day. " ". $dayOfMonth." ". " ". $month. " ". $year; ?> </span></h1>
+      <h1 class="mt-5 fw-bold">Dashboard - <span class="fs-4 text-white"> <?php echo $day. " ". $dayOfMonth." ". " ". $month. " ". $year; ?> </span></h1>
       <div class="p-3 mb-2 border bg-secondary">
         <tr>
           <th>
-      <div class="bg-warning alert alert-success" role="alert">Selamat datang admin - <span class="fw-bold text-capitalize"><?php echo $_SESSION['admin']['nama_admin']; ?></span> di Dashboard Perpustakaan</div>
+      <div class="bg- alert alert-success" role="alert">Selamat datang admin - <span class="fw-bold text-capitalize"><?php echo $_SESSION['admin']['nama_admin']; ?></span> di Dashboard Perpustakaan</div>
       </th>  
     </tr>
       
@@ -86,13 +86,13 @@ $peminjaman = mysqli_fetch_all($query, MYSQLI_ASSOC);
     <table class="table table-striped table-hover">
      <thead class="text-center">
       <tr>
-        <th class="bg-warning text-light">Id Peminjaman</th>
-        <th class="bg-warning text-light">Id Buku</th>
-        <th class="bg-warning text-light">Nisn</th>
-        <th class="bg-warning text-light">tgl_peminjaman</th>
-        <th class="bg-warning text-light">tgl_pengembalian</th>
-        <th class="bg-warning text-light"> status</th>
-        <th class="bg-warning text-light">Aksi</th>
+        <th class="bg-success text-light">Id Peminjaman</th>
+        <th class="bg-success text-light">Id Buku</th>
+        <th class="bg-success text-light">Nisn</th>
+        <th class="bg-success text-light">tgl_peminjaman</th>
+        <th class="bg-success text-light">tgl_pengembalian</th>
+        <th class="bg-success text-light"> status</th>
+        <th class="bg-success text-light">Aksi</th>
 
       </tr>
       </thead>
